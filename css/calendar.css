@@ -1,0 +1,78 @@
+#calendar {
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+.fc-body .fc-axis.fc-time {
+  width: 50px;
+  font-weight: bold;
+}
+
+.fc-timeline-header th {
+  text-align: center;
+  white-space: nowrap;
+  height: 30px;
+}
+
+.fc-timeline-header .fc-cell-content {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-right: 1px solid #ddd;
+}
+
+.fc-timeline-event.fc-event {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #378006;
+  background-color: #99CC66;
+  color: #fff;
+}
+
+.fc-timeline-event.fc-event:hover {
+  background-color: #378006;
+  color: #fff;
+}
+
+
+
+
+.ds-event-categories {
+  width: 100%;
+}
+
+.ds-event-categories li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+  cursor: default;
+}
+
+.ds-event-categories li:hover {
+  background: #e9e9e9;
+  cursor: pointer;
+}
+
+.ds-event-categories input[type="checkbox"]{
+  -webkit-appearance: initial;
+  appearance: initial;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: rgba(0,0,0,0);
+  border: 1px solid #333;
+  cursor: default;
+}
+
+.ds-event-categories input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+.ds-event-categories label {
+  display: inline;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.ds-event-categories label:hover {
+  cursor: pointer;
+}
