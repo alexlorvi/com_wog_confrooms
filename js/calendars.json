@@ -1,0 +1,23 @@
+[
+ {
+  "calDispName": "ConfRoom #1",
+  "calParameters":{
+     "id": "cr_1",
+     "color": "#4776fd",
+     "textColor": "white",
+     "username": "confRoomUserName1",
+     "userPass": "confRoomUserPassword1"
+     }
+ },
+ {
+  "calDispName": "ConfRoom #2",
+  "calParameters":{
+     "id": "cr_2",
+     "color": "#f98b22",
+     "textColor": "white",
+     "username": "confRoomUserName2",
+     "userPass": "confRoomUserPassword2"
+     }
+ }
+]
+
