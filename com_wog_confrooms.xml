@@ -1,8 +1,7 @@
 <zimlet name="com_wog_confrooms"
-        version="2.12"
+        version="2.14"
         label="WOG ConfRooms"
         description="FullCalendar with confRooms">
 <include>com_wog_confrooms.js</include>
-<includeCSS>com_wog_confrooms.css</includeCSS>
 <handlerObject>com_wog_confrooms_HandlerObject</handlerObject>
 </zimlet>
