@@ -6,7 +6,8 @@
      "color": "#4776fd",
      "textColor": "white",
      "username": "confRoomUserName1",
-     "userPass": "confRoomUserPassword1"
+     "userPass": "confRoomUserPassword1",
+     "userToken":""
      }
  },
  {
@@ -16,7 +17,8 @@
      "color": "#f98b22",
      "textColor": "white",
      "username": "confRoomUserName2",
-     "userPass": "confRoomUserPassword2"
+     "userPass": "confRoomUserPassword2",
+     "userToken":""
      }
  }
 ]
