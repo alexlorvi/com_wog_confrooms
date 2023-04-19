@@ -1,5 +1,6 @@
 #!/bin/bash
 
+MAILHOST=localhost
 CONF_CONFIG=calendars.json
 CONF_CONFIG_TMP=$CONF_CONFIG.tmp
 
@@ -14,7 +15,7 @@ while read line; do
 #   echo "$userPass"
   fi
   if ! [ -z "$username" ] 2> /dev/null && ! username[ -z "$username" ] 2> /dev/null && [[ $line =~ "userToken" ]]; then
-    token=$(curl --user "$username:$userPass" -k "https://localhost/home/$username/Inbox/?fmt=sync&auth=sc" -c - 2> /dev/null | grep ZM_AUTH_TOKEN | awk '{print $NF}')
+    token=$(curl --user "$username:$userPass" -k "https://$MAILHOST/home/$username/Inbox/?fmt=sync&auth=sc" -c - 2> /dev/null | grep ZM_AUTH_TOKEN | awk '{print $NF}')
     echo '"userToken":"'$token'"' >> $CONF_CONFIG_TMP
     unset username
     unset userPass
