@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MAILHOST=localhost
-CONF_CONFIG=calendars.json
+CONF_CONFIG=/opt/zimbra/zimlets-deployed/com_wog_confrooms/js/calendars.json
 CONF_CONFIG_TMP=$CONF_CONFIG.tmp
 
 echo > $CONF_CONFIG_TMP
